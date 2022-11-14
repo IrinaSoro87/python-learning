@@ -1,5 +1,5 @@
 with open("count_the_words") as file:
-   data = file.read()
+   data = file.read().lower()
 
 def unique_word_count(str):
     uniqueWords = dict()
