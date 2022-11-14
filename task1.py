@@ -13,9 +13,11 @@ def unique_word_count(str):
             
     return uniqueWords
 
-output = sorted(unique_word_count(data).items())
+output = sorted(unique_word_count(data).items(),key = lambda x:x[1], reverse=True)
 
 print('Total number of unique words in the file is :', len(output))
 
-for key, value in output:
-   print(str(key.capitalize()).ljust(15), ' ', value)
+print("Top 5 words are:")
+for key, value in output[0:5]:
+     print(key.capitalize().ljust(15), ' ', value)
+    
