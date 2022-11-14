@@ -1,0 +1,10 @@
+This file contains words that I want you to count
+
+Some words appear multiple times in this file
+
+Some of the words in the file are capitalized and SOME are mixed case
+
+Mixed case words count as the same word so the word Hello and HELLO are really the same word hello
+
+So your task is to write a python program to read THIS file and tell me for each word in the file how
+many words there are
