@@ -18,4 +18,4 @@ output = sorted(unique_word_count(data).items())
 print('Total number of unique words in the file is :', len(output))
 
 for key, value in output:
-   print(str(key.capitalize()).ljust(15), ' ', value)
+   print(key.capitalize().ljust(15), ' ', value)
